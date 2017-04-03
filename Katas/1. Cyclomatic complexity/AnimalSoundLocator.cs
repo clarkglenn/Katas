@@ -1,4 +1,4 @@
-﻿namespace Katas.Samples {
+﻿namespace Katas {
 	public class AnimalSoundsLocator {
 		//This method has a cyclomatic complexity of 6 because we have five cases + the default. 
 		//We can get this complexity down to 1 (lowest possible for any method), that is if we use no conditionals for this code.
@@ -19,14 +19,5 @@
 					return string.Empty;
 			}
 		}
-	}
-
-	public enum AnimalType {
-		Cat,
-		Dog,
-		Gorilla,
-		Fox,
-		Crow,
-		None
 	}
 }

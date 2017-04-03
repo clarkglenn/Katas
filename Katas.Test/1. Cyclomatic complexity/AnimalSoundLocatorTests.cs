@@ -1,10 +1,8 @@
-using System.Collections.Generic;
-
 using Shouldly;
 
 using Xunit;
 
-namespace Katas.Samples.Test {
+namespace Katas.Test {
 	public class AnimalSoundLocatorTests {
 		private readonly AnimalSoundsLocator sut = new AnimalSoundsLocator();
 
